@@ -1,7 +1,7 @@
 const API_URL = 'https://v2.jokeapi.dev/joke/Any';
 
 talkify.config.remoteService.host = 'https://talkify.net';
-talkify.config.remoteService.apiKey = 'cc9ff8d2-6b67-490e-aeea-4a68dacebb7a';
+talkify.config.remoteService.apiKey = <api_key>;
 let zira = new talkify.TtsPlayer().forceVoice({name: 'Zira'});
 
 const fetchJoke = () => {
